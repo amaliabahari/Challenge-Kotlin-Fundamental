@@ -2,10 +2,10 @@
 
 # Menghitung Volume Kerucut dan Tabung 
 
-import java.util.*
+    import java.util.*
 
-public var input = Scanner(System.`in`);
-fun main() {
+    public var input = Scanner(System.`in`);
+    fun main() {
 
 
     println("===============================")
@@ -26,8 +26,8 @@ fun main() {
     println(gitLength)
     println("================================")
     menu()
-}
-fun menu(){
+    }
+    fun menu(){
     println("1. Kerucut\n2. Tabung\n ")
     print ("Pilih Menu Diatas : ")
     val pill:Int? = input.nextInt()
@@ -39,8 +39,8 @@ fun menu(){
             menu()
         }
     }
-}
-fun kerucut() {
+    }
+    fun kerucut() {
     println("================================");
     print("Masukan Tinggi Kerucut : ");
     val tinggi: Double = input.nextDouble();
@@ -55,8 +55,8 @@ fun kerucut() {
     println("================================");
     menu()
 
-}
-fun tabung() {
+    }
+    fun tabung() {
     println("================================");
     print("Masukan Tinggi tabung : ");
     var tinggi: Double? = null
